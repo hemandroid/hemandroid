@@ -6,13 +6,11 @@
 <h3 align="center"> A.K.A - hemandroid 😎👨🏻‍💻</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hemandroid&label=Views&color=blue&style=plastic&style=for-the-badge" alt="hemandroid" /> </p>
+<img align="left" src="https://user-images.githubusercontent.com/12004982/204016624-f7a41cb0-daba-4b4d-b0d7-4e05801802cb.png" height="250" width="500"/>
 
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
 
-<img align="left" src="https://user-images.githubusercontent.com/12004982/204016624-f7a41cb0-daba-4b4d-b0d7-4e05801802cb.png" height="250" width="450"/>
-
-
-
+       
 # 💫 About Me:
 <img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 😄 Pronouns: He/His<br>
 <img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 🔭 I’m currently working for the [MoneyControl](https://www.moneycontrol.com/) product led by <img width="10%" src="https://user-images.githubusercontent.com/12004982/204028596-767c493a-645b-4720-817a-39d4ebc58e04.png" height="40" width="105" align="center">
