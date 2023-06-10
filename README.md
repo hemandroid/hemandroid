@@ -1,27 +1,29 @@
-<h1 align="center"> Yoo-Hoo!, <img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" 
-         alt="Waving hand animated gif"
-         height="40"
-         width="40" /> I'm Hema Sai Charan K
+<h1 align=center style="text-align: center; display: flex; align-items: center; justify-content: center;">
+  Yoo-Hoo!, <img src="https://github.com/hemandroid/hemandroid/assets/12004982/759e1a60-6ce3-433f-9575-099d74d0ff73" alt="wave" width="60" height="60" style="vertical-align: middle;" /> I'm Hema Sai Charan Kothamasu
 </h1>
+
+
 <h3 align="center"> A.K.A - hemandroid 😎👨🏻‍💻</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hemandroid&label=Views&color=blue&style=plastic&style=for-the-badge" alt="hemandroid" /> </p>
-<img align="left" src="https://user-images.githubusercontent.com/12004982/204016624-f7a41cb0-daba-4b4d-b0d7-4e05801802cb.png" height="250" width="500"/>
 
-<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+| <img src="https://user-images.githubusercontent.com/12004982/204016624-f7a41cb0-daba-4b4d-b0d7-4e05801802cb.png" height="250" width="500" alt="Image 1"> | <img src="https://github.com/hemandroid/hemandroid/assets/12004982/8950f9c1-f9d9-43fa-82f7-cef0c9fc10dd" height="250" width="500" alt="Image 2"> |
+|---|---|
 
-       
+
 # 💫 About Me:
+
 <img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 😄 Pronouns: He/His<br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 🔭 I’m currently working for the [MoneyControl](https://www.moneycontrol.com/) product led by <img width="10%" src="https://user-images.githubusercontent.com/12004982/204028596-767c493a-645b-4720-817a-39d4ebc58e04.png" height="40" width="105" align="center">
-<br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center-horizontal"/> - 🧐 I’m currently exploring more about security & open-source tools.<br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 👯 I’m a Co-Organiser for [Flutter Hyderabad Community](https://twitter.com/flutter_hyd), looking forward to build community stronger 💪 & have more flutter devs.<br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 🤔 I'm a tech speaker & delivered a lot of tech talks on Android & Flutter.<br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - ✍️ When time permits, I used to write some blog posts on my learnings.<br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 💬 Ask me anything about Flutter, Android, & IoT. <br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 📫 How to reach me: Check the social links 👇.<br>
-<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - ⚡ Fun fact: I still used to watch <img src="https://brandslogos.com/wp-content/uploads/images/large/cartoon-network-logo-2.png" height="35" width="105" align="center"> & <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/POGO-logo.svg" height="55" width="90" align="center">
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" /> - 🔭 I’m currently working for the <img src="https://getlogo.net/wp-content/uploads/2020/04/moneycontrol-logo-vector.png" height="50" width="50" style="vertical-align: bottom; margin-right: 5px; margin-top: 80px; object-fit: contain;"> product led by <img width="10%" src="https://user-images.githubusercontent.com/12004982/204028596-767c493a-645b-4720-817a-39d4ebc58e04.png" height="40" width="105" style="vertical-align: bottom;"><br><br>
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 🧐 I’m currently exploring more about security & open-source tools.<br><br>
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 👯 I’m a Co-Organiser for [Flutter Hyderabad Community](https://twitter.com/flutter_hyd), looking forward to building a stronger community 💪 & having more Flutter developers.<br><br>
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 🤔 I'm a tech speaker & have delivered many tech talks on Android & Flutter.<br><br>
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - ✍️ When time permits, I write blog posts about my learnings.<br><br>
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 💬 Ask me anything about Flutter, Android, & IoT.<br><br>
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - 📫 How to reach me: Check the social links 👇.<br><br>
+<img src="https://www.fluttericon.com/logo_dart_192px.svg" height="18" width="18" align="center"/> - ⚡ Fun fact: I still watch<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://brandslogos.com/wp-content/uploads/images/large/cartoon-network-logo-2.png" height="35" width="105" align="center"> & <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/POGO-logo.svg" height="60" width="100" align="center">
+
 
 ## 🌐 Socials:
 <img src="https://flutterindia.dev/flappy-dash.gif" height="25" width="25"> [![LinkedIn followers](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=style=for-the-badge)](https://linkedin.com/in/hemandroid)<br> 
