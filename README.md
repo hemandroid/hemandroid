@@ -1,77 +1,70 @@
-<div align="center">
-  <img src="https://github.com/hemandroid/hemandroid/assets/12004982/759e1a60-6ce3-433f-9575-099d74d0ff73" width="80" />
-  <h1>Hi, I'm Hema Sai Charan Kothamasu</h1>
-  <h3>Mobile Expert | Flutter Educator | Community Builder</h3>
-  
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=hemandroid&label=Profile%20Views&color=02569B&style=for-the-badge" alt="hemandroid" />
-  </p>
-</div>
+<a href="https://hemandroid.me">
+  <img src="assets/reactor.svg" width="100%" alt="Hema Sai Charan Kothamasu, Lead Software Engineer. An arc reactor with 20 copper coils, one per skill, each lit to its level: 13+ years, 10M+ downloads, 40+ talks, 7 engineers led. Open to Mobile Architect, Developer Advocate and Developer Relations roles." />
+</a>
 
----
-
-### 📱 Professional Snapshot
-<div align="center">
-  <table border="0">
-    <tr>
-      <td><img src="https://user-images.githubusercontent.com/12004982/204016624-f7a41cb0-daba-4b4d-b0d7-4e05801802cb.png" width="450" alt="Work 1"></td>
-      <td><img src="https://github.com/hemandroid/hemandroid/assets/12004982/8950f9c1-f9d9-43fa-82f7-cef0c9fc10dd" width="450" alt="Work 2"></td>
-    </tr>
-  </table>
-</div>
-
----
-
-### 💫 About Me
-- 🔭 **Current Focus:** Building the **Moneycontrol** product at **Reliance Industries Limited**.
-- 💙 **Community:** Co-Organizer for [**Flutter Hyderabad**](https://twitter.com/flutter_hyd) — building a stronger dev ecosystem.
-- 🎤 **Speaker:** Frequent tech speaker on **Android**, **Flutter**, and **IoT** architecture.
-- 🧐 **Exploration:** Deep-diving into mobile security and contributing to open-source tools.
-- ✍️ **Writing:** Sharing insights and tutorials via blog posts when I'm not coding.
-- ⚡ **Fun Fact:** Professional by day, 90s kid by night—still a huge fan of **Cartoon Network** and **Pogo**.
-
----
-
-### 🛠️ Tech Stack & Tools
-**Languages & Frameworks**
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)&nbsp; 
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)&nbsp;
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)&nbsp;
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)&nbsp;
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)&nbsp;
-
-**Cloud & Design**
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)&nbsp;
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)&nbsp;
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
-![Adobe XD](https://img.shields.io/badge/Adobe_XD-470137?style=for-the-badge&logo=adobe-xd&logoColor=#FF61F6)&nbsp;
-
-**Tools & Infrastructure**
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)&nbsp;
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)&nbsp;
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)&nbsp;
-
----
-
-### 📊 GitHub Activity
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hemandroid&theme=algolia&hide_border=true" width="97%" />
-</div>
-
----
-
-### 🌐 Connect With Me
-<p align="left">
-  <a href="https://linkedin.com/in/hemandroid"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge" height="35"></a>&nbsp;
-  <a href="hemasaicharan.k@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" height="35"></a>&nbsp;
-  <a href="https://twitter.com/hemandroid"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge" height="35"></a>&nbsp;
-  <a href="https://medium.com/@hemandroid"><img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white&style=for-the-badge" height="35"></a>&nbsp;
-  <a href="https://stackoverflow.com/users/5174125"><img src="https://img.shields.io/badge/StackOverflow-FE7A16?logo=stack-overflow&logoColor=white&style=for-the-badge" height="35"></a>
+<p align="center">
+  <a href="https://hemandroid.me"><img src="https://img.shields.io/badge/hemandroid.me-0B3B63?style=for-the-badge&logo=googlechrome&logoColor=7EE8FF" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/hemandroid"><img src="https://img.shields.io/badge/LinkedIn-0B3B63?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nIzdFRThGRicgZD0nTTQgMi41YTIgMiAwIDEgMSAwIDQgMiAyIDAgMCAxIDAtNHpNMi41IDguNWgzVjIxaC0zek05IDguNWgyLjl2MS44Yy42LTEuMSAxLjktMi4xIDMuOC0yLjEgMy4xIDAgMy44IDIuMSAzLjggNC44VjIxaC0zdi03LjJjMC0xLjQtLjItMi44LTEuOS0yLjgtMS44IDAtMi42IDEuMy0yLjYgM1YyMUg5eicvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
+  <a href="mailto:hemasaicharan.k@gmail.com"><img src="https://img.shields.io/badge/Email-0B3B63?style=for-the-badge&logo=gmail&logoColor=7EE8FF" alt="Email" /></a>
+  <a href="https://speakerdeck.com/hemandroid"><img src="https://img.shields.io/badge/Speaker_Deck-0B3B63?style=for-the-badge&logo=speakerdeck&logoColor=7EE8FF" alt="Speaker Deck" /></a>
+  <a href="https://x.com/hemandroid"><img src="https://img.shields.io/badge/X-0B3B63?style=for-the-badge&logo=x&logoColor=7EE8FF" alt="X" /></a>
+  <a href="https://medium.com/@hemandroid"><img src="https://img.shields.io/badge/Medium-0B3B63?style=for-the-badge&logo=medium&logoColor=7EE8FF" alt="Medium" /></a>
+  <a href="https://stackoverflow.com/users/5174125"><img src="https://img.shields.io/badge/Stack_Overflow-0B3B63?style=for-the-badge&logo=stackoverflow&logoColor=7EE8FF" alt="Stack Overflow" /></a>
 </p>
 
----
+## `01` Power core
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia" width="80%" />
-</div>
+Mobile engineering leader with 13 years across **Flutter, native Android and native iOS**. I've shipped products with **10M+ downloads**, MoneyControl, CITI Mobile and Experian Credit Score among them, including a live-codebase migration to hybrid Flutter with no release freeze. I specialise in Add-to-App modernisation, Clean Architecture, offline-first data and the full testing pyramid, and I've led teams of up to 7 engineers from architecture through to release.
+
+- **Now:** building [**Inspectro**](https://inspectro.dev), runtime DevTools for React, Next.js, Vue and Angular. Component inspection, render tracking, network activity and SSR execution in one surface.
+- **Open to:** Mobile Architect · Developer Advocate · Developer Relations roles. Immediate joiner.
+- **Community:** Lead Organizer, Flutter Hyderabad (2022 – present).
+- **Reviewing:** Technical Reviewer for Packt Publishing's Android titles (2023 – 2025).
+- **Fun fact:** professional by day, 90s kid by night. Still a huge fan of Cartoon Network and Pogo.
+
+## `02` Flight log
+
+| When | Role | Where | Signal |
+| :-- | :-- | :-- | :-- |
+| Aug 2026 – now | Creator & Sole Engineer | [Inspectro](https://inspectro.dev) | One DevTools surface across four frameworks, shipped on the VS Code Marketplace |
+| Dec 2024 – Aug 2026 | Lead Software Engineer, Flutter | Experian | Led 7 senior Flutter engineers across 3 domain teams on Experian Credit Score (3.7M downloads, 4.6★) |
+| Oct 2023 – Apr 2024 | Senior Software Development Engineer | Highspot | Cleared a two-year backlog of 117 P1/P2 defects in 40 days, for clients in 160 countries |
+| Sep 2022 – Oct 2023 | Technical Lead | Network18 · MoneyControl | Flutter modules in the live native Android and iOS apps via Add-to-App (10M+ downloads) |
+| Feb 2022 – Aug 2022 | Mobile Development Lead | Napses Technologies | In-house Flutter app that streamlined the QA team's bug reporting |
+| Sep 2020 – Sep 2021 | Developer III | RealPage | OneSite Facilities, used at 23,000+ sites by 30,000+ technicians |
+| Nov 2018 – Aug 2020 | Senior Consultant | Virtusa | Server-driven UI engine for CITI Mobile (10M+); Huntington Bank's move to Flutter; 98% coverage |
+| Aug 2013 – Aug 2018 | Software Developer → Senior Software Engineer | Mersat-Tech · Fastlane · HighGo | Android apps for the Andhra Pradesh government; BLE-beacon indoor navigation |
+
+## `03` Coil stack
+
+The same four stacks as the reactor's coils, in the same colours. Hover an icon for its name.
+
+| Stack | Coils |
+| :-- | :-- |
+| **Mobile** | <img src="https://cdn.simpleicons.org/flutter/7091E6" width="30" height="30" alt="Flutter" title="Flutter" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/dart/7091E6" width="30" height="30" alt="Dart" title="Dart" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/android/7091E6" width="30" height="30" alt="Android" title="Android" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/kotlin/7091E6" width="30" height="30" alt="Kotlin" title="Kotlin" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/jetpackcompose/7091E6" width="30" height="30" alt="Jetpack Compose" title="Jetpack Compose" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/swift/7091E6" width="30" height="30" alt="Swift" title="Swift" /> |
+| **Web & Backend** | <img src="https://cdn.simpleicons.org/react/00B4D8" width="30" height="30" alt="React" title="React" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/nextdotjs/00B4D8" width="30" height="30" alt="Next.js" title="Next.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/typescript/00B4D8" width="30" height="30" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/nodedotjs/00B4D8" width="30" height="30" alt="Node.js" title="Node.js" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/graphql/00B4D8" width="30" height="30" alt="GraphQL" title="GraphQL" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/dotnet/00B4D8" width="30" height="30" alt=".NET" title=".NET" /> |
+| **Analytics & AI** | <img src="https://cdn.simpleicons.org/claude/F59E0B" width="30" height="30" alt="Claude Code" title="Claude Code" />&nbsp;&nbsp;<img src="assets/icons/openai.svg" width="30" height="30" alt="OpenAI API" title="OpenAI API" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/mixpanel/F59E0B" width="30" height="30" alt="Mixpanel" title="Mixpanel" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/snowflake/F59E0B" width="30" height="30" alt="Snowflake" title="Snowflake" /> |
+| **DevOps & Cloud** | <img src="https://cdn.simpleicons.org/githubactions/2DD4BF" width="30" height="30" alt="GitHub Actions" title="GitHub Actions" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/jenkins/2DD4BF" width="30" height="30" alt="Jenkins" title="Jenkins" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/docker/2DD4BF" width="30" height="30" alt="Docker" title="Docker" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/fastlane/2DD4BF" width="30" height="30" alt="Fastlane" title="Fastlane" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/firebase/2DD4BF" width="30" height="30" alt="Firebase" title="Firebase" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/googlecloud/2DD4BF" width="30" height="30" alt="Google Cloud" title="Google Cloud" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/neon/2DD4BF" width="30" height="30" alt="Neon" title="Neon" /> |
+
+## `04` On stage
+
+- **Upcoming:** React Advanced London 2026 · FlutterCon India 2026
+- **40+ talks and workshops**, including Google DevFest 2018 & 2019 and IWD India, plus a panel at TensorFlow User Groups 2023
+- **Jury and trainer** at Smart India Hackathon; workshops on corporate, college and university campuses
+- **Publications:** *M.A.D with Flutter* · *Android Slices – 3W's*
+- **Slides** on [Speaker Deck](https://speakerdeck.com/hemandroid) · **Writing** on [hemandroid.me/blog](https://hemandroid.me/blog/)
+
+## `05` Telemetry
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=hemandroid&background=03070F&border=1E2A44&ring=38D6FF&fire=F59E0B&currStreakNum=E9FCFF&sideNums=E9FCFF&currStreakLabel=7EE8FF&sideLabels=5F8EA3&dates=5F8EA3&stroke=1E2A44" alt="GitHub contribution streak" />
+</p>
+
+## `06` Open channel
+
+Hiring for a Mobile Architect, Developer Advocate or DevRel role, want a Flutter talk for your event, or just want to talk mobile? Email **hemasaicharan.k@gmail.com**, find me on [LinkedIn](https://linkedin.com/in/hemandroid), or start at [hemandroid.me](https://hemandroid.me).
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hemandroid&label=PROFILE%20VIEWS&color=0B3B63&style=flat-square" alt="Profile views" /><br />
+  <sub>The reactor is generated by <a href="scripts/reactor.mjs"><code>scripts/reactor.mjs</code></a>: 20 coils, one per skill, each lit to its level.</sub>
+</p>

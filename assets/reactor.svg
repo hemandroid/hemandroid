@@ -1,0 +1,481 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-labelledby="title desc">
+<title id="title">Hema Sai Charan Kothamasu, Lead Software Engineer</title>
+<desc id="desc">An arc reactor with 20 copper coils, one per skill, each lit to its level. 13+ years, 10M+ downloads, 40+ talks, 7 engineers led. Open to Mobile Architect, Developer Advocate and Developer Relations roles.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono,.t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.t{font-size:11px;letter-spacing:2.4px}
+.hud{fill:#7ee8ff}.dim{fill:#5f8ea3}.hud-strong{fill:#e9fcff}
+.coil,.bead{animation-fill-mode:both;animation-timing-function:cubic-bezier(.33,1,.68,1)}
+.plate{animation:fade .6s both}
+.ident{animation:fade .6s .1s both}
+.coil{animation-name:fade;animation-duration:.26s}
+.bead{stroke-dasharray:1;animation-name:draw;animation-duration:.7s}
+.core{transform-box:fill-box;transform-origin:center;animation:grow .8s .4s both cubic-bezier(.34,1.56,.64,1)}
+.inner,.arms{animation:fade .5s 1.25s both}
+.spill{animation:fade .25s 1.9s both}
+.tri{transform-box:fill-box;transform-origin:center;animation:ignite 1.15s 1.9s both}
+.flash{animation:flash 1.15s 1.9s both}
+.readout{animation:fade .5s 1.6s both}
+.lock{opacity:0;animation:lock 56s infinite}
+.breathe{animation:breathe 5.6s ease-in-out infinite}
+.flicker{animation:flicker 4.6s linear infinite}
+.tri-glow{animation:tri-glow 3.6s ease-in-out infinite}
+.spill-pulse{animation:spill 3.6s ease-in-out infinite}
+.caret{animation:blink 1s steps(1) infinite}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes grow{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes ignite{0%{opacity:0;transform:scale(.9)}22%{opacity:1;transform:scale(1.04)}100%{opacity:1;transform:scale(1)}}
+@keyframes flash{0%{opacity:0}22%{opacity:.85}100%{opacity:0}}
+@keyframes lock{0%,4.99%{opacity:1}5%,100%{opacity:0}}
+@keyframes breathe{0%,100%{opacity:.72}50%{opacity:1}}
+@keyframes flicker{0%,100%{opacity:.95}6%{opacity:.8}8%{opacity:1}51%{opacity:.9}54%{opacity:1}}
+@keyframes tri-glow{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes spill{0%,100%{opacity:.55}50%{opacity:.8}}
+@keyframes blink{0%{opacity:1}50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.flash{opacity:0}.lock.first{opacity:1}}</style>
+<defs>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="bloom" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+  <filter id="shadow" x="-50%" y="-20%" width="200%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000" flood-opacity=".8"/></filter>
+  <linearGradient id="brushed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef1f4"/><stop offset=".25" stop-color="#b9c1c9"/><stop offset=".5" stop-color="#e4e8ec"/><stop offset=".75" stop-color="#9ea7b0"/><stop offset="1" stop-color="#d7dce1"/></linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b949d"/><stop offset=".5" stop-color="#3a4149"/><stop offset="1" stop-color="#9aa3ac"/></linearGradient>
+  <radialGradient id="cavity"><stop offset="0" stop-color="#1a6fae"/><stop offset=".45" stop-color="#0d3f6e"/><stop offset=".8" stop-color="#07223d"/><stop offset="1" stop-color="#040f1c"/></radialGradient>
+  <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7a3616"/><stop offset=".25" stop-color="#d9854a"/><stop offset=".5" stop-color="#f0a86b"/><stop offset=".75" stop-color="#c2632f"/><stop offset="1" stop-color="#6e2f12"/></linearGradient>
+  <radialGradient id="plasma"><stop offset="0" stop-color="#7fdcff" stop-opacity=".75"/><stop offset=".55" stop-color="#2a9be0" stop-opacity=".55"/><stop offset="1" stop-color="#0a4f86" stop-opacity="0"/></radialGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#b8f1ff" stop-opacity=".95"/><stop offset=".4" stop-color="#38d6ff" stop-opacity=".4"/><stop offset="1" stop-color="#38d6ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="stage" gradientUnits="userSpaceOnUse" cx="334" cy="310" r="560"><stop offset="0" stop-color="#38d6ff" stop-opacity=".14"/><stop offset=".55" stop-color="#38d6ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="floor" gradientUnits="userSpaceOnUse" cx="600" cy="806" r="840"><stop offset="0" stop-color="#0a285a" stop-opacity=".9"/><stop offset="1" stop-color="#0a285a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="arm" gradientUnits="userSpaceOnUse" x1="301" y1="0" x2="319" y2="0"><stop offset="0" stop-color="#05080c"/><stop offset=".3" stop-color="#2a323b"/><stop offset=".5" stop-color="#3c4652"/><stop offset=".75" stop-color="#161c23"/><stop offset="1" stop-color="#05080c"/></linearGradient>
+  <g id="windings" stroke="#5a2610" stroke-opacity=".55" stroke-width=".6"><line x1="297" y1="84" x2="323" y2="84"/><line x1="297" y1="86.5" x2="323" y2="86.5"/><line x1="297" y1="89" x2="323" y2="89"/><line x1="297" y1="91.5" x2="323" y2="91.5"/><line x1="297" y1="94" x2="323" y2="94"/><line x1="297" y1="96.5" x2="323" y2="96.5"/><line x1="297" y1="99" x2="323" y2="99"/><line x1="297" y1="101.5" x2="323" y2="101.5"/><line x1="297" y1="104" x2="323" y2="104"/><line x1="297" y1="106.5" x2="323" y2="106.5"/><line x1="297" y1="109" x2="323" y2="109"/><line x1="297" y1="111.5" x2="323" y2="111.5"/><line x1="297" y1="114" x2="323" y2="114"/><line x1="297" y1="116.5" x2="323" y2="116.5"/></g>
+  <path id="top" d="M57.97 391.89A265 265 0 1 1 562.03 391.89" fill="none"/>
+  <path id="bottom" d="M61.01 442.39A282 282 0 0 0 558.99 442.39" fill="none"/>
+</defs>
+<rect width="1200" height="620" rx="22" fill="#03070f"/>
+<rect width="1200" height="620" rx="22" fill="url(#floor)"/>
+<rect width="1200" height="620" rx="22" fill="url(#stage)"/>
+
+<g transform="translate(24 0)">
+  <circle cx="310" cy="310" r="300" fill="url(#halo)" opacity=".25" class="breathe"/>
+  <g class="boot plate">
+  <path d="M10 310a300 300 0 1 0 600 0a300 300 0 1 0 -600 0ZM64 310a246 246 0 1 1 492 0a246 246 0 1 1 -492 0Z" fill="url(#brushed)" fill-rule="evenodd" stroke="#5b636b" stroke-width="1.2"/>
+  <circle cx="310" cy="310" r="250" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="251.6" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="253.2" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="254.8" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="256.4" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="258" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="259.6" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="261.2" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="262.8" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="264.4" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="266" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="267.6" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="269.2" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="270.8" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="272.4" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="274" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="275.6" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="277.2" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="278.8" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="280.4" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="282" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="283.6" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="285.2" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="286.8" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="288.4" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="290" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="291.6" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="293.2" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="294.8" fill="none" stroke="#6d757d" stroke-opacity=".07"/><circle cx="310" cy="310" r="296.4" fill="none" stroke="#fff" stroke-opacity=".07"/><circle cx="310" cy="310" r="298" fill="none" stroke="#6d757d" stroke-opacity=".07"/>
+  <circle cx="310" cy="310" r="299" fill="none" stroke="#fff" stroke-opacity=".6"/>
+  <circle cx="310" cy="310" r="251" fill="none" stroke="#3b4249" stroke-width=".9" stroke-opacity=".75"/><circle cx="310" cy="310" r="251.9" fill="none" stroke="#fff" stroke-width=".7" stroke-opacity=".8"/><circle cx="310" cy="310" r="255.5" fill="none" stroke="#3b4249" stroke-width=".9" stroke-opacity=".75"/><circle cx="310" cy="310" r="256.4" fill="none" stroke="#fff" stroke-width=".7" stroke-opacity=".8"/><circle cx="310" cy="310" r="290.5" fill="none" stroke="#3b4249" stroke-width=".9" stroke-opacity=".75"/><circle cx="310" cy="310" r="291.4" fill="none" stroke="#fff" stroke-width=".7" stroke-opacity=".8"/><circle cx="310" cy="310" r="295" fill="none" stroke="#3b4249" stroke-width=".9" stroke-opacity=".75"/><circle cx="310" cy="310" r="295.9" fill="none" stroke="#fff" stroke-width=".7" stroke-opacity=".8"/>
+  
+  <text dy="1" text-anchor="middle" fill="#fff" opacity=".7" font-size="24" font-weight="800" letter-spacing="3.4"><textPath href="#top" startOffset="50%">PROOF THAT HEMANDROID</textPath></text>
+  <text text-anchor="middle" fill="#2b3036" font-size="24" font-weight="800" letter-spacing="3.4"><textPath href="#top" startOffset="50%">PROOF THAT HEMANDROID</textPath></text>
+  
+  <text dy="1" text-anchor="middle" fill="#fff" opacity=".7" font-size="24" font-weight="800" letter-spacing="3.4"><textPath href="#bottom" startOffset="50%">DRIVES INNOVATION</textPath></text>
+  <text text-anchor="middle" fill="#2b3036" font-size="24" font-weight="800" letter-spacing="3.4"><textPath href="#bottom" startOffset="50%">DRIVES INNOVATION</textPath></text>
+  <text x="37" y="310" text-anchor="middle" dominant-baseline="central" font-size="8.5" font-weight="700" letter-spacing="1.7" fill="#4a5158" transform="rotate(-90 37 310)">MK XIII</text><text x="583" y="310" text-anchor="middle" dominant-baseline="central" font-size="8.5" font-weight="700" letter-spacing="1.7" fill="#4a5158" transform="rotate(90 583 310)">EST. 2013</text>
+  <path d="M63 310a247 247 0 1 0 494 0a247 247 0 1 0 -494 0ZM74 310a236 236 0 1 1 472 0a236 236 0 1 1 -472 0Z" fill="url(#rim)" fill-rule="evenodd"/>
+  <circle cx="310" cy="310" r="236" fill="url(#cavity)"/>
+  <circle cx="310" cy="310" r="212" fill="none" stroke="#7ee8ff" stroke-width="28" filter="url(#soft)" class="flicker"/></g>
+  
+  <g class="coil" style="animation-delay:0.35s" transform="rotate(9 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.95" filter="url(#glow)"/>
+    <g class="lock first" style="animation-delay:1.4s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.38s" transform="rotate(27 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.97" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:4.2s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.4s" transform="rotate(45 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.74" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:7s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.42s" transform="rotate(63 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.84" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:9.8s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.45s" transform="rotate(81 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.96" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:12.6s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.47s" transform="rotate(99 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.95" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:15.4s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.5s" transform="rotate(117 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.9" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:18.2s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.53s" transform="rotate(135 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.84" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:21s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.55s" transform="rotate(153 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.93" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:23.8s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.57s" transform="rotate(171 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.9" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:26.6s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.6s" transform="rotate(189 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.97" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:29.4s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.63s" transform="rotate(207 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.84" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:32.2s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.65s" transform="rotate(225 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.9" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:35s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.68s" transform="rotate(243 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.93" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:37.8s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.7s" transform="rotate(261 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.84" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:40.6s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.72s" transform="rotate(279 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.93" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:43.4s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.75s" transform="rotate(297 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.87" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:46.2s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.78s" transform="rotate(315 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.95" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:49s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.8s" transform="rotate(333 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.8" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:51.8s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <g class="coil" style="animation-delay:0.82s" transform="rotate(351 310 310)">
+    <rect x="294" y="76" width="32" height="6" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="297" y="82" width="26" height="36" rx="2" fill="url(#copper)" stroke="#4a1f0b" stroke-width=".8"/>
+    <use href="#windings"/>
+    <rect x="294" y="118" width="32" height="5" rx="1.5" fill="#2a3139" stroke="#0b0f14"/>
+    <rect x="303" y="138" width="14" height="9" rx="4" fill="#dff9ff" opacity="0.87" filter="url(#glow)"/>
+    <g class="lock" style="animation-delay:54.6s">
+      <rect x="297" y="82" width="26" height="36" rx="2" fill="#f0a86b" opacity=".55" filter="url(#bloom)"/>
+      <rect x="303" y="138" width="14" height="9" rx="4" fill="#fff" filter="url(#bloom)"/>
+    </g>
+  </g>
+  <path d="M316.95 129.13A181 181 0 0 1 359.28 135.84" stroke="#7091e6" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.7s" pathLength="1" d="M316.95 129.13A181 181 0 0 1 355.97 134.93" stroke="#7091e6" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M372.5 140.13A181 181 0 0 1 410.69 159.59" stroke="#7091e6" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.74s" pathLength="1" d="M372.5 140.13A181 181 0 0 1 409.26 158.64" stroke="#7091e6" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M421.93 167.76A181 181 0 0 1 452.24 198.07" stroke="#7091e6" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.78s" pathLength="1" d="M421.93 167.76A181 181 0 0 1 440.99 185.09" stroke="#7091e6" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M460.41 209.31A181 181 0 0 1 479.87 247.5" stroke="#7091e6" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.82s" pathLength="1" d="M460.41 209.31A181 181 0 0 1 475.86 237.54" stroke="#7091e6" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M484.16 260.72A181 181 0 0 1 490.87 303.05" stroke="#7091e6" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.86s" pathLength="1" d="M484.16 260.72A181 181 0 0 1 490.75 300.48" stroke="#7091e6" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M490.87 316.95A181 181 0 0 1 484.16 359.28" stroke="#00b4d8" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.9s" pathLength="1" d="M490.87 316.95A181 181 0 0 1 485.07 355.97" stroke="#00b4d8" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M479.87 372.5A181 181 0 0 1 460.41 410.69" stroke="#00b4d8" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.94s" pathLength="1" d="M479.87 372.5A181 181 0 0 1 463.9 405.27" stroke="#00b4d8" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M452.24 421.93A181 181 0 0 1 421.93 452.24" stroke="#00b4d8" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:0.98s" pathLength="1" d="M452.24 421.93A181 181 0 0 1 430.17 445.35" stroke="#00b4d8" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M410.69 460.41A181 181 0 0 1 372.5 479.87" stroke="#00b4d8" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.02s" pathLength="1" d="M410.69 460.41A181 181 0 0 1 376.51 478.34" stroke="#00b4d8" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M359.28 484.16A181 181 0 0 1 316.95 490.87" stroke="#00b4d8" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.06s" pathLength="1" d="M359.28 484.16A181 181 0 0 1 323.38 490.5" stroke="#00b4d8" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M303.05 490.87A181 181 0 0 1 260.72 484.16" stroke="#f59e0b" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.1s" pathLength="1" d="M303.05 490.87A181 181 0 0 1 262.37 484.62" stroke="#f59e0b" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M247.5 479.87A181 181 0 0 1 209.31 460.41" stroke="#f59e0b" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.14s" pathLength="1" d="M247.5 479.87A181 181 0 0 1 218.41 466.11" stroke="#f59e0b" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M198.07 452.24A181 181 0 0 1 167.76 421.93" stroke="#f59e0b" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.18s" pathLength="1" d="M198.07 452.24A181 181 0 0 1 171.83 426.92" stroke="#f59e0b" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M159.59 410.69A181 181 0 0 1 140.13 372.5" stroke="#f59e0b" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.22s" pathLength="1" d="M159.59 410.69A181 181 0 0 1 141.66 376.51" stroke="#f59e0b" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M135.84 359.28A181 181 0 0 1 129.13 316.95" stroke="#f59e0b" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.26s" pathLength="1" d="M135.84 359.28A181 181 0 0 1 129.86 327.66" stroke="#f59e0b" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M129.13 303.05A181 181 0 0 1 135.84 260.72" stroke="#2dd4bf" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.3s" pathLength="1" d="M129.13 303.05A181 181 0 0 1 134.72 264.86" stroke="#2dd4bf" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M140.13 247.5A181 181 0 0 1 159.59 209.31" stroke="#2dd4bf" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.34s" pathLength="1" d="M140.13 247.5A181 181 0 0 1 154.98 216.56" stroke="#2dd4bf" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M167.76 198.07A181 181 0 0 1 198.07 167.76" stroke="#2dd4bf" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.38s" pathLength="1" d="M167.76 198.07A181 181 0 0 1 195.39 169.91" stroke="#2dd4bf" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M209.31 159.59A181 181 0 0 1 247.5 140.13" stroke="#2dd4bf" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.42s" pathLength="1" d="M209.31 159.59A181 181 0 0 1 235.57 145.01" stroke="#2dd4bf" stroke-width="4" fill="none" filter="url(#glow)"/><path d="M260.72 135.84A181 181 0 0 1 303.05 129.13" stroke="#2dd4bf" stroke-opacity=".15" stroke-width="4" fill="none"/><path class="bead" style="animation-delay:1.46s" pathLength="1" d="M260.72 135.84A181 181 0 0 1 294.48 129.67" stroke="#2dd4bf" stroke-width="4" fill="none" filter="url(#glow)"/>
+  <g class="boot inner"><circle cx="310" cy="310" r="150" fill="none" stroke="#e6fbff" stroke-width="10" filter="url(#glow)"/><circle cx="310" cy="310" r="133" fill="none" stroke="#e6fbff" stroke-width="3" filter="url(#glow)"/><circle cx="310" cy="310" r="121" fill="none" stroke="#e6fbff" stroke-width="6" filter="url(#glow)"/></g>
+  <g class="core">
+    <circle cx="310" cy="310" r="118" fill="url(#halo)" class="breathe"/>
+    <circle cx="310" cy="310" r="96" fill="#0b3b63" stroke="#9fdcff" stroke-opacity=".5" stroke-width="2"/>
+    <circle cx="310" cy="310" r="74" fill="url(#plasma)" class="flicker"/>
+  </g>
+  <g class="boot spill"><circle cx="310" cy="310" r="96" fill="url(#halo)" class="spill-pulse"/></g>
+  <g class="tri">
+    <polygon points="310,365 262.37,282.5 357.63,282.5" fill="none" stroke="#38d6ff" stroke-width="22" stroke-linejoin="round" filter="url(#soft)" class="tri-glow"/>
+    <polygon points="310,365 262.37,282.5 357.63,282.5" fill="none" stroke="#8fe6ff" stroke-width="10" stroke-linejoin="round" filter="url(#glow)" opacity=".9"/>
+    <polygon points="310,365 262.37,282.5 357.63,282.5" fill="#bff3ff" fill-opacity=".12" stroke="#fff" stroke-width="4.5" stroke-linejoin="round"/>
+    <polygon points="310,365 262.37,282.5 357.63,282.5" fill="#fff" stroke="#fff" stroke-width="14" stroke-linejoin="round" filter="url(#bloom)" class="flash"/>
+  </g>
+  <g class="boot arms">
+  <g transform="rotate(180 310 310)">
+    <path d="M305.5 210Q304.5 182 302 154H318Q315.5 182 314.5 210Z" fill="url(#arm)" stroke="#000" stroke-width=".8" filter="url(#shadow)"/>
+    <path d="M307.5 207Q306.8 182 305 157" stroke="#9fb0bf" stroke-opacity=".35" stroke-width=".7" fill="none"/>
+  </g>
+  <g transform="rotate(252 310 310)">
+    <path d="M305.5 210Q304.5 182 302 154H318Q315.5 182 314.5 210Z" fill="url(#arm)" stroke="#000" stroke-width=".8" filter="url(#shadow)"/>
+    <path d="M307.5 207Q306.8 182 305 157" stroke="#9fb0bf" stroke-opacity=".35" stroke-width=".7" fill="none"/>
+  </g>
+  <g transform="rotate(324 310 310)">
+    <path d="M305.5 210Q304.5 182 302 154H318Q315.5 182 314.5 210Z" fill="url(#arm)" stroke="#000" stroke-width=".8" filter="url(#shadow)"/>
+    <path d="M307.5 207Q306.8 182 305 157" stroke="#9fb0bf" stroke-opacity=".35" stroke-width=".7" fill="none"/>
+  </g>
+  <g transform="rotate(36 310 310)">
+    <path d="M305.5 210Q304.5 182 302 154H318Q315.5 182 314.5 210Z" fill="url(#arm)" stroke="#000" stroke-width=".8" filter="url(#shadow)"/>
+    <path d="M307.5 207Q306.8 182 305 157" stroke="#9fb0bf" stroke-opacity=".35" stroke-width=".7" fill="none"/>
+  </g>
+  <g transform="rotate(108 310 310)">
+    <path d="M305.5 210Q304.5 182 302 154H318Q315.5 182 314.5 210Z" fill="url(#arm)" stroke="#000" stroke-width=".8" filter="url(#shadow)"/>
+    <path d="M307.5 207Q306.8 182 305 157" stroke="#9fb0bf" stroke-opacity=".35" stroke-width=".7" fill="none"/>
+  </g></g>
+</g>
+
+<g class="boot ident">
+  <text x="704" y="62" class="t hud">MK XIII // EST. 2013 // HYDERABAD, IN</text>
+  <text x="704" y="106" font-size="27" font-weight="800" fill="#e9fcff" textLength="466" lengthAdjust="spacing">HEMA SAI CHARAN KOTHAMASU</text>
+  <text x="704" y="134" class="t dim">LEAD SOFTWARE ENGINEER · FLUTTER · ANDROID · iOS</text>
+  <text x="704" y="168" class="mono" font-size="12" letter-spacing="2.4" fill="#5f8ea3">OPEN TO ▸</text>
+  
+  <defs><clipPath id="type0"><rect x="806" y="150" height="26" width="0"><animate attributeName="width" calcMode="discrete" dur="10.8s" begin="0.5s" repeatCount="indefinite" keyTimes="0;0.01;0.01;0.02;0.02;0.03;0.03;0.04;0.04;0.05;0.06;0.06;0.07;0.07;0.08;0.08;0.09;0.29;0.3;0.3;0.3;0.3;0.31;0.31;0.31;0.31;0.31;0.32;0.32;0.32;0.32;0.33;0.33" values="0;12.2;22.4;32.6;42.8;53;63.2;73.4;83.6;93.8;104;114.2;124.4;134.6;144.8;155;165.2;155;144.8;134.6;124.4;114.2;104;93.8;83.6;73.4;63.2;53;42.8;32.6;22.4;12.2;0"/></rect></clipPath><clipPath id="type1"><rect x="806" y="150" height="26" width="0"><animate attributeName="width" calcMode="discrete" dur="10.8s" begin="0.5s" repeatCount="indefinite" keyTimes="0;0.33;0.34;0.34;0.35;0.36;0.36;0.37;0.37;0.38;0.38;0.39;0.39;0.4;0.41;0.41;0.42;0.42;0.43;0.43;0.62;0.63;0.63;0.63;0.63;0.63;0.64;0.64;0.64;0.64;0.65;0.65;0.65;0.65;0.66;0.66;0.66;0.66" values="0;0;12.2;22.4;32.6;42.8;53;63.2;73.4;83.6;93.8;104;114.2;124.4;134.6;144.8;155;165.2;175.4;185.6;175.4;165.2;155;144.8;134.6;124.4;114.2;104;93.8;83.6;73.4;63.2;53;42.8;32.6;22.4;12.2;0"/></rect></clipPath><clipPath id="type2"><rect x="806" y="150" height="26" width="0"><animate attributeName="width" calcMode="discrete" dur="10.8s" begin="0.5s" repeatCount="indefinite" keyTimes="0;0.67;0.67;0.68;0.68;0.69;0.69;0.7;0.71;0.71;0.72;0.72;0.73;0.73;0.74;0.74;0.75;0.76;0.76;0.77;0.77;0.95;0.96;0.96;0.96;0.96;0.97;0.97;0.97;0.97;0.97;0.98;0.98;0.98;0.98;0.99;0.99;0.99;0.99;1" values="0;0;12.2;22.4;32.6;42.8;53;63.2;73.4;83.6;93.8;104;114.2;124.4;134.6;144.8;155;165.2;175.4;185.6;195.8;185.6;175.4;165.2;155;144.8;134.6;124.4;114.2;104;93.8;83.6;73.4;63.2;53;42.8;32.6;22.4;12.2;0"/></rect></clipPath></defs>
+  <text x="808" y="168" clip-path="url(#type0)" class="mono" font-size="17" font-weight="700" fill="#00b4d8" textLength="163" lengthAdjust="spacing">Mobile Architect</text><text x="808" y="168" clip-path="url(#type1)" class="mono" font-size="17" font-weight="700" fill="#00b4d8" textLength="183.4" lengthAdjust="spacing">Developer Advocate</text><text x="808" y="168" clip-path="url(#type2)" class="mono" font-size="17" font-weight="700" fill="#00b4d8" textLength="193.6" lengthAdjust="spacing">Developer Relations</text>
+  <rect x="808" y="153" width="2" height="19" fill="#7ee8ff" class="caret"><animate attributeName="x" calcMode="discrete" dur="10.8s" begin="0.5s" repeatCount="indefinite" keyTimes="0;0.01;0.01;0.02;0.02;0.03;0.03;0.04;0.04;0.05;0.06;0.06;0.07;0.07;0.08;0.08;0.09;0.29;0.3;0.3;0.3;0.3;0.31;0.31;0.31;0.31;0.31;0.32;0.32;0.32;0.32;0.33;0.33;0.34;0.34;0.35;0.36;0.36;0.37;0.37;0.38;0.38;0.39;0.39;0.4;0.41;0.41;0.42;0.42;0.43;0.43;0.62;0.63;0.63;0.63;0.63;0.63;0.64;0.64;0.64;0.64;0.65;0.65;0.65;0.65;0.66;0.66;0.66;0.66;0.67;0.68;0.68;0.69;0.69;0.7;0.71;0.71;0.72;0.72;0.73;0.73;0.74;0.74;0.75;0.76;0.76;0.77;0.77;0.95;0.96;0.96;0.96;0.96;0.97;0.97;0.97;0.97;0.97;0.98;0.98;0.98;0.98;0.99;0.99;0.99;0.99;1" values="808;819.2;829.4;839.6;849.8;860;870.2;880.4;890.6;900.8;911;921.2;931.4;941.6;951.8;962;972.2;962;951.8;941.6;931.4;921.2;911;900.8;890.6;880.4;870.2;860;849.8;839.6;829.4;819.2;808;819.2;829.4;839.6;849.8;860;870.2;880.4;890.6;900.8;911;921.2;931.4;941.6;951.8;962;972.2;982.4;992.6;982.4;972.2;962;951.8;941.6;931.4;921.2;911;900.8;890.6;880.4;870.2;860;849.8;839.6;829.4;819.2;808;819.2;829.4;839.6;849.8;860;870.2;880.4;890.6;900.8;911;921.2;931.4;941.6;951.8;962;972.2;982.4;992.6;1002.8;992.6;982.4;972.2;962;951.8;941.6;931.4;921.2;911;900.8;890.6;880.4;870.2;860;849.8;839.6;829.4;819.2;808"/></rect>
+  <text x="704" y="232" font-size="30" font-weight="800" fill="#e9fcff" filter="url(#glow)">13+</text><text x="704" y="252" class="t dim" font-size="9.5" letter-spacing="1.8">YEARS</text><text x="816" y="232" font-size="30" font-weight="800" fill="#e9fcff" filter="url(#glow)">10M+</text><text x="816" y="252" class="t dim" font-size="9.5" letter-spacing="1.8">DOWNLOADS</text><text x="928" y="232" font-size="30" font-weight="800" fill="#e9fcff" filter="url(#glow)">40+</text><text x="928" y="252" class="t dim" font-size="9.5" letter-spacing="1.8">TALKS</text><text x="1040" y="232" font-size="30" font-weight="800" fill="#e9fcff" filter="url(#glow)">7</text><text x="1040" y="252" class="t dim" font-size="9.5" letter-spacing="1.8">ENGINEERS LED</text>
+  <line x1="704" y1="274" x2="1170" y2="274" stroke="#7ee8ff" stroke-opacity=".2"/>
+</g>
+<g class="boot readout">
+  <path d="M704 300h466v172h-446l-20-20z" fill="rgba(8,30,52,.55)" stroke="#7ee8ff" stroke-opacity=".5"/>
+  <text x="722" y="326" class="t hud">CORE OUTPUT</text>
+  <text x="1152" y="326" text-anchor="end" class="t" fill="#e9fcff">20 / 20</text>
+  <line x1="722" y1="338" x2="1152" y2="338" stroke="#7ee8ff" stroke-opacity=".25"/>
+  <text x="722" y="358" class="t dim">COIL LOCK</text>
+  <rect x="994" y="420" width="150" height="6" fill="#7ee8ff" fill-opacity=".12"/>
+  
+  <g class="lock first" style="animation-delay:1.4s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">FLUTTER &amp; DART</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#7091e6" filter="url(#glow)">92%</text>
+    <text x="722" y="456" class="t dim">MOBILE · COIL 01/20</text>
+    <rect x="994" y="420" width="138" height="6" fill="#7091e6"/>
+  </g>
+  <g class="lock" style="animation-delay:4.2s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">ANDROID &amp; KOTLIN</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#7091e6" filter="url(#glow)">96%</text>
+    <text x="722" y="456" class="t dim">MOBILE · COIL 02/20</text>
+    <rect x="994" y="420" width="144" height="6" fill="#7091e6"/>
+  </g>
+  <g class="lock" style="animation-delay:7s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">SWIFTUI</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#7091e6" filter="url(#glow)">60%</text>
+    <text x="722" y="456" class="t dim">MOBILE · COIL 03/20</text>
+    <rect x="994" y="420" width="90" height="6" fill="#7091e6"/>
+  </g>
+  <g class="lock" style="animation-delay:9.8s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">JETPACK COMPOSE</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#7091e6" filter="url(#glow)">75%</text>
+    <text x="722" y="456" class="t dim">MOBILE · COIL 04/20</text>
+    <rect x="994" y="420" width="112.5" height="6" fill="#7091e6"/>
+  </g>
+  <g class="lock" style="animation-delay:12.6s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">TESTING</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#7091e6" filter="url(#glow)">94%</text>
+    <text x="722" y="456" class="t dim">MOBILE · COIL 05/20</text>
+    <rect x="994" y="420" width="141" height="6" fill="#7091e6"/>
+  </g>
+  <g class="lock" style="animation-delay:15.4s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">REACT &amp; NEXT.JS</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#00b4d8" filter="url(#glow)">92%</text>
+    <text x="722" y="456" class="t dim">WEB &amp; BACKEND · COIL 06/20</text>
+    <rect x="994" y="420" width="138" height="6" fill="#00b4d8"/>
+  </g>
+  <g class="lock" style="animation-delay:18.2s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">TYPESCRIPT</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#00b4d8" filter="url(#glow)">85%</text>
+    <text x="722" y="456" class="t dim">WEB &amp; BACKEND · COIL 07/20</text>
+    <rect x="994" y="420" width="127.5" height="6" fill="#00b4d8"/>
+  </g>
+  <g class="lock" style="animation-delay:21s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">NODE.JS</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#00b4d8" filter="url(#glow)">75%</text>
+    <text x="722" y="456" class="t dim">WEB &amp; BACKEND · COIL 08/20</text>
+    <rect x="994" y="420" width="112.5" height="6" fill="#00b4d8"/>
+  </g>
+  <g class="lock" style="animation-delay:23.8s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">GRAPHQL</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#00b4d8" filter="url(#glow)">90%</text>
+    <text x="722" y="456" class="t dim">WEB &amp; BACKEND · COIL 09/20</text>
+    <rect x="994" y="420" width="135" height="6" fill="#00b4d8"/>
+  </g>
+  <g class="lock" style="animation-delay:26.6s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">.NET</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#00b4d8" filter="url(#glow)">85%</text>
+    <text x="722" y="456" class="t dim">WEB &amp; BACKEND · COIL 10/20</text>
+    <rect x="994" y="420" width="127.5" height="6" fill="#00b4d8"/>
+  </g>
+  <g class="lock" style="animation-delay:29.4s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">CLAUDE CODE</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#f59e0b" filter="url(#glow)">96%</text>
+    <text x="722" y="456" class="t dim">ANALYTICS &amp; AI · COIL 11/20</text>
+    <rect x="994" y="420" width="144" height="6" fill="#f59e0b"/>
+  </g>
+  <g class="lock" style="animation-delay:32.2s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">OPENAI API</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#f59e0b" filter="url(#glow)">75%</text>
+    <text x="722" y="456" class="t dim">ANALYTICS &amp; AI · COIL 12/20</text>
+    <rect x="994" y="420" width="112.5" height="6" fill="#f59e0b"/>
+  </g>
+  <g class="lock" style="animation-delay:35s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">PROMPT ENG.</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#f59e0b" filter="url(#glow)">85%</text>
+    <text x="722" y="456" class="t dim">ANALYTICS &amp; AI · COIL 13/20</text>
+    <rect x="994" y="420" width="127.5" height="6" fill="#f59e0b"/>
+  </g>
+  <g class="lock" style="animation-delay:37.8s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">AGENTIC DEV</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#f59e0b" filter="url(#glow)">90%</text>
+    <text x="722" y="456" class="t dim">ANALYTICS &amp; AI · COIL 14/20</text>
+    <rect x="994" y="420" width="135" height="6" fill="#f59e0b"/>
+  </g>
+  <g class="lock" style="animation-delay:40.6s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">LOOP ENG.</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#f59e0b" filter="url(#glow)">75%</text>
+    <text x="722" y="456" class="t dim">ANALYTICS &amp; AI · COIL 15/20</text>
+    <rect x="994" y="420" width="112.5" height="6" fill="#f59e0b"/>
+  </g>
+  <g class="lock" style="animation-delay:43.4s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">NEON DB</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#2dd4bf" filter="url(#glow)">90%</text>
+    <text x="722" y="456" class="t dim">DEVOPS &amp; CLOUD · COIL 16/20</text>
+    <rect x="994" y="420" width="135" height="6" fill="#2dd4bf"/>
+  </g>
+  <g class="lock" style="animation-delay:46.2s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">FIREBASE &amp; GCP</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#2dd4bf" filter="url(#glow)">80%</text>
+    <text x="722" y="456" class="t dim">DEVOPS &amp; CLOUD · COIL 17/20</text>
+    <rect x="994" y="420" width="120" height="6" fill="#2dd4bf"/>
+  </g>
+  <g class="lock" style="animation-delay:49s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">CI/CD</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#2dd4bf" filter="url(#glow)">92%</text>
+    <text x="722" y="456" class="t dim">DEVOPS &amp; CLOUD · COIL 18/20</text>
+    <rect x="994" y="420" width="138" height="6" fill="#2dd4bf"/>
+  </g>
+  <g class="lock" style="animation-delay:51.8s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">DOCKER</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#2dd4bf" filter="url(#glow)">70%</text>
+    <text x="722" y="456" class="t dim">DEVOPS &amp; CLOUD · COIL 19/20</text>
+    <rect x="994" y="420" width="105" height="6" fill="#2dd4bf"/>
+  </g>
+  <g class="lock" style="animation-delay:54.6s">
+    <text x="722" y="384" font-size="20" font-weight="700" letter-spacing=".8" fill="#e9fcff">AUTOMATION</text>
+    <text x="722" y="432" font-size="40" font-weight="700" fill="#2dd4bf" filter="url(#glow)">80%</text>
+    <text x="722" y="456" class="t dim">DEVOPS &amp; CLOUD · COIL 20/20</text>
+    <rect x="994" y="420" width="120" height="6" fill="#2dd4bf"/>
+  </g>
+  <rect x="704" y="502" width="8" height="8" fill="#7091e6"/><text x="722" y="510" class="t hud" font-size="10.5">MOBILE</text><text x="926" y="510" text-anchor="end" class="t" fill="#7091e6">AVG 83</text><rect x="948" y="502" width="8" height="8" fill="#00b4d8"/><text x="966" y="510" class="t hud" font-size="10.5">WEB &amp; BACKEND</text><text x="1170" y="510" text-anchor="end" class="t" fill="#00b4d8">AVG 85</text><rect x="704" y="530" width="8" height="8" fill="#f59e0b"/><text x="722" y="538" class="t hud" font-size="10.5">ANALYTICS &amp; AI</text><text x="926" y="538" text-anchor="end" class="t" fill="#f59e0b">AVG 84</text><rect x="948" y="530" width="8" height="8" fill="#2dd4bf"/><text x="966" y="538" class="t hud" font-size="10.5">DEVOPS &amp; CLOUD</text><text x="1170" y="538" text-anchor="end" class="t" fill="#2dd4bf">AVG 82</text>
+  <text x="704" y="596" class="t hud-strong">▸ HEMANDROID.ME</text>
+  <text x="1170" y="596" text-anchor="end" class="t dim">20 COILS · 4 STACKS</text>
+</g>
+<g class="boot readout"><path class="lock first" style="animation-delay:1.4s" d="M370.92 76.91L381.87 7.77A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#7091e6" stroke-width="1.2"/><path class="lock" style="animation-delay:4.2s" d="M441.14 99.72L472.92 37.35A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#7091e6" stroke-width="1.2"/><path class="lock" style="animation-delay:7s" d="M500.88 143.12L550.37 93.63A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#7091e6" stroke-width="1.2"/><path class="lock" style="animation-delay:9.8s" d="M544.28 202.86L606.65 171.08A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#7091e6" stroke-width="1.2"/><path class="lock" style="animation-delay:12.6s" d="M567.09 273.08L636.23 262.13A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#7091e6" stroke-width="1.2"/><path class="lock" style="animation-delay:15.4s" d="M567.09 346.92L636.23 357.87A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#00b4d8" stroke-width="1.2"/><path class="lock" style="animation-delay:18.2s" d="M544.28 417.14L606.65 448.92A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#00b4d8" stroke-width="1.2"/><path class="lock" style="animation-delay:21s" d="M500.88 476.88L550.37 526.37A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#00b4d8" stroke-width="1.2"/><path class="lock" style="animation-delay:23.8s" d="M441.14 520.28L472.92 582.65A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#00b4d8" stroke-width="1.2"/><path class="lock" style="animation-delay:26.6s" d="M370.92 543.09L381.87 612.23A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#00b4d8" stroke-width="1.2"/><path class="lock" style="animation-delay:29.4s" d="M297.08 543.09L286.13 612.23A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#f59e0b" stroke-width="1.2"/><path class="lock" style="animation-delay:32.2s" d="M226.86 520.28L195.08 582.65A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#f59e0b" stroke-width="1.2"/><path class="lock" style="animation-delay:35s" d="M167.12 476.88L117.63 526.37A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#f59e0b" stroke-width="1.2"/><path class="lock" style="animation-delay:37.8s" d="M123.72 417.14L61.35 448.92A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#f59e0b" stroke-width="1.2"/><path class="lock" style="animation-delay:40.6s" d="M100.91 346.92L31.77 357.87A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#f59e0b" stroke-width="1.2"/><path class="lock" style="animation-delay:43.4s" d="M100.91 273.08L31.77 262.13A306 306 0 0 0 635.35 363.14L690 384H704" fill="none" stroke="#2dd4bf" stroke-width="1.2"/><path class="lock" style="animation-delay:46.2s" d="M123.72 202.86L61.35 171.08A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#2dd4bf" stroke-width="1.2"/><path class="lock" style="animation-delay:49s" d="M167.12 143.12L117.63 93.63A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#2dd4bf" stroke-width="1.2"/><path class="lock" style="animation-delay:51.8s" d="M226.86 99.72L195.08 37.35A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#2dd4bf" stroke-width="1.2"/><path class="lock" style="animation-delay:54.6s" d="M297.08 76.91L286.13 7.77A306 306 0 0 1 635.35 363.14L690 384H704" fill="none" stroke="#2dd4bf" stroke-width="1.2"/></g>
+<rect x=".5" y=".5" width="1199" height="619" rx="21.5" fill="none" stroke="#1e2a44"/>
+</svg>
